@@ -6,9 +6,8 @@
 
     <groupId>papermc</groupId>
     <artifactId>paper-api</artifactId>
-    <version>1.8.8-api</version>
+    <version>1.8.8</version>
     <packaging>jar</packaging>
 
-    <name>Paper-API 1.8.8 Custom</name>
-    <description>Custom Maven Repo for Paper API 1.8.8</description>
+    <name>Paper API Custom</name>
 </project>
