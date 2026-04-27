@@ -1,26 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
+    <meta charset="UTF-8">
     <title>ILYJNY Maven Repository</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; }
-        a { text-decoration: none; color: #0366d6; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 40px; color: #333; background-color: #f6f8fa; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #24292e; border-bottom: 2px solid #eaecef; padding-bottom: 10px; }
+        .artifact-card { background: #fff; border: 1px solid #e1e4e8; border-radius: 6px; padding: 15px; margin-top: 20px; }
+        .path { font-family: monospace; color: #586069; background: #f1f8ff; padding: 3px 6px; border-radius: 3px; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 10px 0; padding-left: 20px; position: relative; }
+        li::before { content: "📦"; position: absolute; left: -5px; }
+        a { text-decoration: none; color: #0366d6; font-weight: bold; }
         a:hover { text-decoration: underline; }
-        .path { color: #586069; }
+        .footer { margin-top: 30px; font-size: 0.85em; color: #6a737d; text-align: center; }
+        .status-online { color: #28a745; font-weight: bold; }
     </style>
 </head>
 <body>
-    <h1>📦 My Personal Maven Repository</h1>
-    <hr>
-    <h3>Available Artifacts:</h3>
-    <ul>
-        <li>
-            <span class="path">papermc/paper-api/1.8.8/</span><br>
-            👉 <a href="papermc/paper-api/1.8.8/paper-api-1.8.8.pom</a><br>
-            👉 <a href="papermc/paper-api/1.8.8/paper-api-1.8.8.jar</a>
-        </li>
-    </ul>
-    <hr>
-    <p>Status: <span style="color: green;">Online</span></p>
+    <div class="container">
+        <h1>🚀 My Personal Maven Repository</h1>
+        <p>개인 프로젝트를 위한 커스텀 메이븐 저장소입니다.</p>
+        
+        <div class="artifact-card">
+            <h3>Available Artifacts:</h3>
+            <ul>
+                <li>
+                    <span class="path">papermc / paper-api / 1.8.8</span><br>
+                    <div style="margin-top: 8px; margin-left: 15px;">
+                        🔗 <a href="papermc/paper-api/1.8.8/paper-api-1.8.8.pom">paper-api-1.8.8.pom</a><br>
+                        🔗 <a href="papermc/paper-api/1.8.8/paper-api-1.8.8.jar">paper-api-1.8.8.jar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            Status: <span class="status-online">Online</span> | 
+            Last Updated: 2026-04-27
+        </div>
+    </div>
 </body>
 </html>
