@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net</groupId>
-  <artifactId>essentialsx-api-2.22.0-spawn</artifactId>
+  <artifactId>essentialsx-api-2.22.0-protection</artifactId>
   <version>2.22.0</version>
 </project>
